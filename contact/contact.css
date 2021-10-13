@@ -1,0 +1,75 @@
+.custom-contact {
+  min-height: 660px;
+  background-color: #141414;
+  padding: 70px 20px;
+}
+
+.custom-contact__title {
+  font-family: "Montserrat", sans-serif;
+  color: #fafafa;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.custom-contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 376px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .custom-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .custom-contact__form {
+    margin: initial;
+    min-width: 376px;
+  }
+
+  .custom-contact__title {
+    font-size: 48px;
+    margin-right: 77px;
+  }
+}
+
+.custom-contact__name-label {
+  font-family: "Poppins", sans-serif;
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 13px;
+}
+.custom-contact__name-input {
+  height: 45px;
+  margin-bottom: 27px;
+}
+.custom-contact__email-label {
+  font-family: "Poppins", sans-serif;
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 13px;
+}
+.custom-contact__email-input {
+  height: 45px;
+  margin-bottom: 27px;
+}
+.custom-contact__textarea-label {
+  font-family: "Poppins", sans-serif;
+  color: #fafafa;
+  font-weight: 400;
+  font-size: 13px;
+}
+.custom-contat__textarea-input {
+  height: 113px;
+  margin-bottom: 71px;
+}
+.custom-contact__btn {
+  background-color: #2c2c2c;
+  color: #dbdbdb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}

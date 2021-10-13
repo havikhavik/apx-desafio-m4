@@ -1,0 +1,54 @@
+.hero-section {
+  background-color: #000000;
+}
+
+.contact-container {
+  background-color: #000000;
+}
+
+.contact-section__title {
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  padding: 100px 0;
+}
+
+.custom-contact {
+  background-color: #000000;
+}
+
+.custom-contact__title {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    background-color: initial;
+  }
+
+  .hero-container {
+    background: linear-gradient(
+      107.17deg,
+      #408195 29.35%,
+      rgba(0, 210, 135, 0.8) 78.73%
+    );
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    background-color: initial;
+  }
+
+  .contact-section__title {
+    font-size: 48px;
+    margin-right: 77px;
+  }
+
+  .custom-contact {
+    background: initial;
+  }
+}
