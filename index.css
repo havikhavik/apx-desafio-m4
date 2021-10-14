@@ -3,6 +3,7 @@
 .hero-section {
   height: 616px;
   background-image: url(./images/home-mobile.png);
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
